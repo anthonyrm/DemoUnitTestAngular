@@ -1,0 +1,25 @@
+{
+  "name": "demounittestangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "start": "http-server -a localhost -p 8001 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyrm/DemoUnitTestAngular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyrm/DemoUnitTestAngular/issues"
+  },
+  "homepage": "https://github.com/anthonyrm/DemoUnitTestAngular#readme",
+  "devDependencies": {
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
+}
