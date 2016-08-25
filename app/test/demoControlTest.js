@@ -14,8 +14,8 @@ describe('demoControl', function () {
 			var controller = $controller('demoCtrl', { $scope: $scope });
 			$scope.num1 = 1;
 			$scope.num2 = 2;
-			$scope.sumar();
-			expect($scope.tot).toBe(-1);
+			$scope.sum();
+			expect($scope.tot).toBe(3);
 		});
 
         it('should multiply 2 values', function () {
@@ -23,7 +23,7 @@ describe('demoControl', function () {
 			var controller = $controller('demoCtrl', { $scope: $scope });
 			$scope.num1 = 1;
 			$scope.num2 = 2;
-			$scope.multiplicar();
+			$scope.multiply();
 			expect($scope.tot).toBe(2);
 		});
 	});
